@@ -1,0 +1,106 @@
+body {
+  margin: 30px;
+  background-image: url("img/texture.png");
+  font-size: 1.8em;
+}
+
+@font-face {
+  font-family: reggae;
+  src: url(ReggaeOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-Black.ttf);
+}
+
+h1 {
+  margin-left: 2em;
+  color: #A69B7B;
+  font-family: roboto;
+  font-size: 4.3em;
+}
+
+h2 {
+  color: #8C8368;
+  font-family: reggae;
+}
+
+/* used on home page image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* navbar styling */
+.navbar ul {
+  padding-top: 25px;
+  margin-left: 75px;
+}
+
+.navbar li {
+  padding-top: 5px;
+}
+
+.navbar img {
+  padding-top: 0px;
+}
+
+/* styling for floor plan links */
+.floorPlan {
+  width: 300px;
+  height: 75px;
+  padding: 10px 10px 20px 10px;
+  margin: 10px;
+  border: 1px solid #8C8368;
+  background-color: #BFBBBA;
+  color: #8C8481;
+}
+
+.space {
+  margin: 50px 0px;
+}
+
+p span {
+  background-color: #A69B7B;
+  width: 130px;
+  height: 60px;
+  padding: 4px 40px 12px 40px;
+  margin: 5px;
+}
+
+.row {
+  margin: 50px 0px;
+}
+
+.col {
+  margin: 10px;
+}
+
+/* end floor plan styling */
+/* navbar hover style */
+.glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px white;
+          box-shadow: 0 0 1px white;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+}
+
+@media only screen and (min-width: 768px) {
+  .glow:hover, .glow:focus, .glow:active {
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+}
+/*# sourceMappingURL=vintage.css.map */
