@@ -1,0 +1,109 @@
+body {
+  margin: 30px;
+  background-image: url("../img/texture.png");
+  font-size: 1.8em;
+}
+
+.main-container {
+  width: 80vw;
+  margin: auto;
+}
+
+.main-container .center {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: reggae;
+  src: url(ReggaeOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-Black.ttf);
+}
+
+h1 {
+  margin-left: 2em;
+  color: #A69B7B;
+  font-family: roboto;
+  font-size: 4.3em;
+}
+
+h2 {
+  color: #8C8368;
+  font-family: reggae;
+}
+
+/* navbar styling */
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.navbar-brand img {
+  max-height: 120px;
+  position: relative;
+  top: -10px;
+  left: 20px;
+}
+
+.nav-link {
+  margin-left: 30px;
+  font-size: 1.1em;
+  color: #000000;
+}
+
+.navbar-toggler-icon {
+  background-color: lightgrey;
+  color: black;
+}
+
+/* styling for floor plan links */
+.floorPlan {
+  width: 300px;
+  height: 75px;
+  padding: 10px 10px 20px 10px;
+  margin: 10px;
+  border: 1px solid #8C8368;
+  background-color: #BFBBBA;
+  color: #8C8481;
+}
+
+.space {
+  margin: 50px 0px;
+}
+
+p span {
+  background-color: #A69B7B;
+  width: 130px;
+  height: 60px;
+  padding: 4px 40px 12px 40px;
+  margin: 5px;
+}
+
+.row {
+  margin: 50px 0px;
+}
+
+.col {
+  margin: 10px;
+}
+
+/* end floor plan styling */
+/* navbar hover style */
+.glow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px white;
+  transition-duration: 0.3s;
+  transition-property: box-shadow;
+}
+
+@media only screen and (min-width: 768px) {
+  .glow:hover, .glow:focus, .glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+}
