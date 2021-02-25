@@ -1,11 +1,39 @@
 
-		body {
-            margin:30px;
-            background-image:url("../img/texture.png");
-            font-size: 1.8em;
-        }
+    body {
+        margin:30px;
+        background-image:url("../img/texture.png");// texture
+        font-size: 1.8em;
+    }
 
-        
+    .ohnohoney{ // contact form honey pot class
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        z-index: -1;
+    }
+
+    .formStyle {
+        text-align: right;
+        position:relative;
+        right:4em;
+    }
+
+    form {
+        background-color:#8C8368;
+        padding:3em;
+        h2 {
+            position:relative;
+            bottom:1em;
+            text-align: center;
+        }
+        div {
+            text-align: center;
+        }
+    }
+
     .main-container {
         width: 80vw;
         margin: auto;
@@ -33,66 +61,66 @@
             font-family:roboto;
             font-size: 4.3em;
         }
-        h2 {
+        h1+h2 {
            color:#8C8368;
            font-family:reggae;
         }
 
 		 /* navbar styling */
 
-         .navbar-brand {
-            margin-left: 10px;
+    .navbar-brand {
+    margin-left: 10px;
 
-            img {
-                max-height: 120px;
-                position: relative;
-                top: -10px;
-                left: 20px;
-            }
+    img {
+        max-height: 120px;
+        position: relative;
+        top: -10px;
+        left: 20px;
         }
+    }
 
-        .nav-link {
-            margin-left: 30px;
-            font-size: 1.1em;
-            color: #000000;
-        }
+    .nav-link {
+        margin-left: 30px;
+        font-size: 1.1em;
+        color: #000000;
+    }
 
-        .navbar-toggler-icon {
-            background-color: lightgrey;
-            color: black;
-        }
+    .navbar-toggler-icon {
+        background-color: lightgrey;
+        color: black;
+    }
 
  /* styling for floor plan links */
-        .floorPlan {
-            width:300px;
-            height: 75px;
-            padding: 10px 10px 20px 10px;
-            margin:10px;
-            border: 1px solid #8C8368;
-            background-color:#BFBBBA;
-            color:#8C8481;
-        }
+    .floorPlan {
+        width:300px;
+        height: 75px;
+        padding: 10px 10px 20px 10px;
+        margin:10px;
+        border: 1px solid #8C8368;
+        background-color:#BFBBBA;
+        color:#8C8481;
+    }
 
     .space{
         margin:50px 0px;
     }
 
-        p span {
-            background-color: #A69B7B;
-            width:130px;
-            height:60px;
-            padding:4px 40px 12px 40px;
-            margin:5px;
-        }
+    p span {
+        background-color: #A69B7B;
+        width:130px;
+        height:60px;
+        padding:4px 40px 12px 40px;
+        margin:5px;
+    }
 
-        .row {
-            margin: 50px 0px;
-        }
+    .row {
+        margin: 50px 0px;
+    }
 
-        .col {
-            margin:10px;
-        }
-         /* end floor plan styling */
+    .col {
+        margin:10px;
+    }
+        /* end floor plan styling */
 
 
  /* navbar hover style */
