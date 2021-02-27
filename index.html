@@ -32,7 +32,7 @@
 
   <nav class="navbar navbar-expand-md bg-light">
 
-    <a class="navbar-brand" href="index.html"><img src="img/PrairieTrail.png"
+    <a class="navbar-brand" href="index.html"><img src="img/PrairieTrailResize.png"
         alt="Vintage Cooperative of Prairie Trail logo"></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavMobile"
@@ -71,8 +71,7 @@
           a building." Cooperatives create a supportive, interdependent living environment that cultivates
           an active, participatory lifestyle enhancing daily life and promoting health and well-being.
         </p>
-      </div>
-      <div class="col">
+
         <p>Featuring the finest in quality construction, Vintage Hills will offer one-level floor
           plans that are thoughtfully designed keeping the needs of seniors in mind.
         </p>
@@ -97,21 +96,43 @@
 
       <!-- contact form -->
       <div class="col">
-        <h3>Contact Us!</h3>
-        <form id="form1" name="form1" method="post" action="hello.py">
-          <p>First Name:
-            <input type="text" name="firstName" id="firstName" />
+        
+        <form id="form1" name="form1" method="post" action="WHAT GOES HERE??">
+          <h2>Contact Us!</h2>
+          <p class="formStyle">
+            <label for ="clientFirstName">First Name:</label>
+            <input type="text" name="clientFirstName" id="clientFirstName" />
           </p>
-          <p>Last Name:
-            <input type="text" name="lastName" id="lastName" />
+          
+          <p class="formStyle">
+            <label for ="clientLastName">Last Name:</label>
+            <input type="text" name="clientLastName" id="clientLastName" />
           </p>
-          <p>School:
-            <input type="text" name="school" id="school" />
+
+          <p class="formStyle">
+            <label for ="clientEmail">Email:</label>
+            <input type="text" name="clientEmail" id="clientEmail" />
           </p>
-          <p>
+
+          <p class="formStyle">
+            <label for ="clientPhone">Phone:</label>
+            <input type="text" name="clientPhone" id="clientPhone" />
+          </p>
+
+          <p class="formStyle">
+            <label for="clientMessage">Message:</label>
+            <textarea name="clientMessage" id="clientMessage"></textarea>
+          </p>
+          
+          <label for ="name" class="ohnohoney"></label>
+          <input class="ohnohoney" autocomplete="off" type="text" id="name" name="name" placeholder="Your Name here">
+          <label for ="email" class="ohnohoney"></label>
+          <input class="ohnohoney" autocomplete="off" type="text" id="email" name="email" placeholder="Your email here">
+          
+          <div>
             <input type="submit" name="button" id="button" value="Submit" />
             <input type="reset" name="button2" id="button2" value="Reset" />
-          </p>
+          </div>
         </form>
       </div>
     </div>
