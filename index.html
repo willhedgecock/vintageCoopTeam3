@@ -26,6 +26,35 @@
   <link type="text/css" rel="stylesheet" href="fonts/ReggaeOne-Regular.ttf">
 
 
+  <script>
+    // function bigger() {
+    //   document.body.style.fontSize = larger;
+    // }
+    function bigger(multiplier) {
+      
+      if (document.body.style.fontSize == "") {
+
+        document.body.style.fontSize = "1.8em";
+      }
+      document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.2) + "em";
+    }
+
+    function smaller(multiplier) {
+      if (document.body.style.fontSize == "") {
+        document.body.style.fontSize = "1.8em";
+      }
+      document.body.style.fontSize = parseFloat(document.body.style.fontSize) - (multiplier * 0.2) + "em";
+    }
+
+
+    // function smaller() {
+    //   document.body.style.fontSize = smaller;
+    // }
+  </script>
+  <style>
+
+  </style>
+
 </head>
 
 <body>
@@ -54,6 +83,11 @@
 
   <div class="main-container">
     <h1>Welcome to:</h1>
+    <div id="magnify">
+      <h2><button onclick="bigger(1)">+</button>
+      <img src="img/search2.png" alt="magnify glass image">
+      <button onclick="smaller(1)">-</button></h2>
+    </div>
     <img src="img/homePage2.jpg" class="center" alt="Vintage Cooperative Image" />
 
     

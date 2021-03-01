@@ -8,6 +8,12 @@ h2 {
   text-align: center;
 }
 
+#magnify {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+}
+
 .homePageImg {
   width: 25%;
   height: auto;
