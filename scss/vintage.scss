@@ -5,6 +5,59 @@
         font-size: 1.8em;
     }
 
+    h2 {
+        text-align: center;
+    }
+
+    .homePageImg { // styling for images on home page
+        width:25%;
+        height:auto;
+        margin:0em 1.5em;
+    }
+
+    div.polaroid { // polaroid styling home page images
+        margin-left:5em;
+        width: 284px;
+        padding: 10px 10px 20px 10px;
+        border: 1px solid #BFBFBF;
+        background-color: #F2F2F2;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        h2 {
+            text-align: center;
+        }
+        img {
+            border-radius: 50px;
+            width:90%;
+            height:auto;
+        }
+      }
+
+      div.rotate_left {
+        -ms-transform: rotate(-8deg); /* IE 9 */
+        -webkit-transform: rotate(-8deg); /* Safari */
+        transform: rotate(-8deg);
+      }
+
+      div.rotateL {
+        float:left;
+        transform:rotate(-12deg);
+    }
+
+      div.rotate_right {
+        float: left;
+        -ms-transform: rotate(7deg); /* IE 9 */
+        -webkit-transform: rotate(7deg); /* Safari */
+        transform: rotate(7deg);
+      } // end polaroid style classes
+
+      .moreSpace {      // these 2 classes for spacing on home page polaroid pics
+          margin-top:5em;
+      }
+
+      .moreSpace2 {
+          margin-top:10em;
+      }
+
     .ohnohoney{ // contact form honey pot class
         opacity: 0;
         position: absolute;
@@ -43,40 +96,36 @@
             display: block;
             margin: 0 auto;
         }
-    }
+    } // end Daves home page contact form styling
 
         @font-face {
             font-family:reggae;
-            src:url(ReggaeOne-Regular.ttf)
+            src:url(../fonts/ReggaeOne-Regular.ttf)
         }
 
         @font-face {
             font-family:roboto;
-            src:url(Roboto-Black.ttf)
+            src:url(../fonts/Roboto-Black.ttf)
         }
 
         h1 {
-            margin-left:2em;
+            margin-left:1em;
             color:#A69B7B;
             font-family:roboto;
             font-size: 4.3em;
-        }
-        h1+h2 {
-           color:#8C8368;
-           font-family:reggae;
         }
 
 		 /* navbar styling */
 
     .navbar-brand {
-    margin-left: 10px;
+        margin-left: 10px;
 
-    img {
-        max-height: 120px;
-        position: relative;
-        top: -10px;
-        left: 20px;
-        }
+        img {
+            max-height: 120px;
+            position: relative;
+            top: -10px;
+            left: 20px;
+            }
     }
 
     .nav-link {
@@ -90,28 +139,6 @@
         color: black;
     }
 
- /* styling for floor plan links */
-    .floorPlan {
-        width:300px;
-        height: 75px;
-        padding: 10px 10px 20px 10px;
-        margin:10px;
-        border: 1px solid #8C8368;
-        background-color:#BFBBBA;
-        color:#8C8481;
-    }
-
-    .space{
-        margin:50px 0px;
-    }
-
-    p span {
-        background-color: #A69B7B;
-        width:130px;
-        height:60px;
-        padding:4px 40px 12px 40px;
-        margin:5px;
-    }
 
     .row {
         margin: 50px 0px;

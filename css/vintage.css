@@ -4,6 +4,65 @@ body {
   font-size: 1.8em;
 }
 
+h2 {
+  text-align: center;
+}
+
+.homePageImg {
+  width: 25%;
+  height: auto;
+  margin: 0em 1.5em;
+}
+
+div.polaroid {
+  margin-left: 5em;
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: #F2F2F2;
+  -webkit-box-shadow: 10px 10px 5px #aaaaaa;
+          box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.polaroid h2 {
+  text-align: center;
+}
+
+div.polaroid img {
+  border-radius: 50px;
+  width: 90%;
+  height: auto;
+}
+
+div.rotate_left {
+  /* IE 9 */
+  -webkit-transform: rotate(-8deg);
+  /* Safari */
+  transform: rotate(-8deg);
+}
+
+div.rotateL {
+  float: left;
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
+}
+
+div.rotate_right {
+  float: left;
+  /* IE 9 */
+  -webkit-transform: rotate(7deg);
+  /* Safari */
+  transform: rotate(7deg);
+}
+
+.moreSpace {
+  margin-top: 5em;
+}
+
+.moreSpace2 {
+  margin-top: 10em;
+}
+
 .ohnohoney {
   opacity: 0;
   position: absolute;
@@ -48,24 +107,19 @@ form div {
 
 @font-face {
   font-family: reggae;
-  src: url(ReggaeOne-Regular.ttf);
+  src: url(../fonts/ReggaeOne-Regular.ttf);
 }
 
 @font-face {
   font-family: roboto;
-  src: url(Roboto-Black.ttf);
+  src: url(../fonts/Roboto-Black.ttf);
 }
 
 h1 {
-  margin-left: 2em;
+  margin-left: 1em;
   color: #A69B7B;
   font-family: roboto;
   font-size: 4.3em;
-}
-
-h1 + h2 {
-  color: #8C8368;
-  font-family: reggae;
 }
 
 /* navbar styling */
@@ -89,29 +143,6 @@ h1 + h2 {
 .navbar-toggler-icon {
   background-color: lightgrey;
   color: black;
-}
-
-/* styling for floor plan links */
-.floorPlan {
-  width: 300px;
-  height: 75px;
-  padding: 10px 10px 20px 10px;
-  margin: 10px;
-  border: 1px solid #8C8368;
-  background-color: #BFBBBA;
-  color: #8C8481;
-}
-
-.space {
-  margin: 50px 0px;
-}
-
-p span {
-  background-color: #A69B7B;
-  width: 130px;
-  height: 60px;
-  padding: 4px 40px 12px 40px;
-  margin: 5px;
 }
 
 .row {
