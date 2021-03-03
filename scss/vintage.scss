@@ -9,12 +9,6 @@
         text-align: center;
     }
 
-    #magnify {
-        position:fixed;
-        right:30px;
-        top:30px;
-    }
-
     .homePageImg { // styling for images on home page
         width:25%;
         height:auto;
@@ -54,7 +48,7 @@
         -ms-transform: rotate(7deg); /* IE 9 */
         -webkit-transform: rotate(7deg); /* Safari */
         transform: rotate(7deg);
-      } // end polaroid style classes
+      } 
 
       .moreSpace {      // these 2 classes for spacing on home page polaroid pics
           margin-top:5em;
@@ -64,34 +58,10 @@
           margin-top:10em;
       }
 
-    .ohnohoney{ // contact form honey pot class
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 0;
-        width: 0;
-        z-index: -1;
+      .moreSpace3 {
+        margin-top:100em;
     }
-
-    .formStyle {
-        text-align: right;
-        position:relative;
-        right:4em;
-    }
-
-    form {
-        background-color:#8C8368;
-        padding:3em;
-        h2 {
-            position:relative;
-            bottom:1em;
-            text-align: center;
-        }
-        div {
-            text-align: center;
-        }
-    }
+// end polaroid style classes
 
     .main-container {
         width: 80vw;
@@ -171,4 +141,16 @@
   @media only screen and (min-width: 768px) {
     .glow:hover, .glow:focus, .glow:active {
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-  }}
+    }
+    #magnify {
+        position:fixed;
+        right:30px;
+        top:30px;
+    }
+    }
+
+    @media only screen and (max-width: 767px) { // for mobile devices
+        #magnify {
+            display:none;
+        }
+    }

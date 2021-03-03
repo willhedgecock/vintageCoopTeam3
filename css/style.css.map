@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,IAAI,EAAE,IAAI,CAJD,SAAS,EAAE,UAAU;EAK9B,KAAK,EAJM,IAAI;CAKlB",
+    "sources": [
+        "../../../../wdv495/gulp-project/sass/style.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

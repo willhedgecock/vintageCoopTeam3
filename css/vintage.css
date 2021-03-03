@@ -8,12 +8,6 @@ h2 {
   text-align: center;
 }
 
-#magnify {
-  position: fixed;
-  right: 30px;
-  top: 30px;
-}
-
 .homePageImg {
   width: 25%;
   height: auto;
@@ -69,35 +63,8 @@ div.rotate_right {
   margin-top: 10em;
 }
 
-.ohnohoney {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 0;
-  z-index: -1;
-}
-
-.formStyle {
-  text-align: right;
-  position: relative;
-  right: 4em;
-}
-
-form {
-  background-color: #8C8368;
-  padding: 3em;
-}
-
-form h2 {
-  position: relative;
-  bottom: 1em;
-  text-align: center;
-}
-
-form div {
-  text-align: center;
+.moreSpace3 {
+  margin-top: 100em;
 }
 
 .main-container {
@@ -181,6 +148,17 @@ h1 {
   .glow:hover, .glow:focus, .glow:active {
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
             box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+  #magnify {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #magnify {
+    display: none;
   }
 }
 /*# sourceMappingURL=vintage.css.map */
