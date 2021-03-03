@@ -24,26 +24,29 @@
   <link type="text/css" rel="stylesheet" href="css/vintage.css">
   <link type="text/css" rel="stylesheet" href="fonts/Roboto-Black.ttf">
   <link type="text/css" rel="stylesheet" href="fonts/ReggaeOne-Regular.ttf">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/footer.css">
 
 
   <script>
     // function bigger() {
     //   document.body.style.fontSize = larger;
     // }
-    function bigger(multiplier) {
+    function bigger() {
       
       if (document.body.style.fontSize == "") {
 
         document.body.style.fontSize = "1.8em";
       }
-      document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (multiplier * 0.2) + "em";
+      document.body.style.fontSize = parseFloat(document.body.style.fontSize) +  0.2 + "em";
     }
 
-    function smaller(multiplier) {
+    function smaller() {
       if (document.body.style.fontSize == "") {
         document.body.style.fontSize = "1.8em";
       }
-      document.body.style.fontSize = parseFloat(document.body.style.fontSize) - (multiplier * 0.2) + "em";
+      document.body.style.fontSize = parseFloat(document.body.style.fontSize) -  0.2 + "em";
     }
 
 
@@ -84,9 +87,9 @@
   <div class="main-container">
     <h1>Welcome to:</h1>
     <div id="magnify">
-      <h2><button onclick="smaller(1)">-</button>
+      <h2><button onclick="smaller()">-</button>
       <img src="img/search2.png" alt="magnify glass image">
-      <button onclick="bigger(1)">+</button></h2>    
+      <button onclick="bigger()">+</button></h2>    
     </div>
     <img src="img/homePage2.jpg" class="center" alt="Vintage Cooperative Image" />
 
@@ -160,13 +163,72 @@
       </div>      
     </div>
 
+
   </div>
   <!--END MAIN CONTAINER-->
   <div>
-  <footer>
-    <p>Vintage hills Cooperative Housing Office is locate at 1370 SW Magazine Rd Office hours are
-      8:30am - 4pm but we would be happy to arrange an appointment at your convenience (515) 729-2040.
-    </p>
+  
+    <footer class="flex-footer">
+
+      <div class="footer-nav">
+
+          <h1>Navigation</h1>
+
+          <div class="footer-nav-flex">
+
+              <div class="footer-nav-links">
+                  <a class="nav-item nav-link glow" href="#">HOME</a>
+                  <a class="nav-item nav-link glow" href="#">WHY CO-OPS?</a>
+                  <a class="nav-item nav-link glow" href="#">THE NEIGHBORHOOD</a>
+                 
+              </div>
+
+
+              <div class="footer-nav-links">
+                <a class="nav-item nav-link glow" href="#">ABOUT US</a>
+                  <a class="nav-item nav-link glow" href="#">FLOOR PLANS</a>
+                  <a class="nav-item nav-link glow" href="#">CONTACT US</a>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="footer-contact">
+          <img src="img/PrairieTrail.png">
+
+          <div class="contact-icons">
+              <a href="tel:+1-515-289-2530"><i class="fas fa-phone-alt"></i></a>
+              <a href="mailto: abc@example.com"><i class="fas fa-envelope"></i></a>
+              <a href="https://www.facebook.com/vintage.cooperative/" target="_blank"><i class="fab fa-facebook"></i></a>
+          </div>
+
+          <div class="rights-reserved">
+              <p>Copyright &#169;</i>
+                  <script>
+                      let date = new Date(); 
+                      document.write(date.getFullYear());
+                 </script>   
+                 Vintage Cooperative of Prairie Trail - All Rights Reserved
+              </p>
+          </div>
+      </div>
+
+      <div class="footer-information">
+          <h1>General Information</h1>
+
+          <h2>Hours</h2>
+
+          <p>Monday - Thurday: 8:30AM - 4PM</p>
+          <p>Friday - Sunday: Closed</p>
+
+          <h2>Contact Information</h2>
+          <p>Email: vintagecoop@hello.com</p>
+          <p>Phone: (515)289-2350</p>
+          <p>Address: 1370 SW Magazine Rd
+              Ankeny, IA 50023
+          </p>
+      </div>
+
   </footer>
   </div>
 
