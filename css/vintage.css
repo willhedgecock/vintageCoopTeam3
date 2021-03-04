@@ -1,17 +1,10 @@
 body {
   margin: 30px;
   background-image: url("../img/texture.png");
-  font-size: 1.8em;
 }
 
 h2 {
   text-align: center;
-}
-
-.homePageImg {
-  width: 25%;
-  height: auto;
-  margin: 0em 1.5em;
 }
 
 div.polaroid {
@@ -63,13 +56,10 @@ div.rotate_right {
   margin-top: 10em;
 }
 
-.moreSpace3 {
-  margin-top: 100em;
-}
-
 .main-container {
   width: 80vw;
   margin: auto;
+  font-size: 1.4em;
 }
 
 .main-container .center {

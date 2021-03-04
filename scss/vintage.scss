@@ -2,17 +2,10 @@
     body {
         margin:30px;
         background-image:url("../img/texture.png");// texture
-        font-size: 1.8em;
     }
 
     h2 {
         text-align: center;
-    }
-
-    .homePageImg { // styling for images on home page
-        width:25%;
-        height:auto;
-        margin:0em 1.5em;
     }
 
     div.polaroid { // polaroid styling home page images
@@ -58,38 +51,36 @@
           margin-top:10em;
       }
 
-      .moreSpace3 {
-        margin-top:100em;
-    }
 // end polaroid style classes
 
     .main-container {
         width: 80vw;
         margin: auto;
+        font-size: 1.4em;
 
         .center {
             width: 100%;
             display: block;
             margin: 0 auto;
         }
-    } // end Daves home page contact form styling
+    } 
 
-        @font-face {
-            font-family:reggae;
-            src:url(../fonts/ReggaeOne-Regular.ttf)
-        }
+    @font-face {
+        font-family:reggae;
+        src:url(../fonts/ReggaeOne-Regular.ttf)
+    }
 
-        @font-face {
-            font-family:roboto;
-            src:url(../fonts/Roboto-Black.ttf)
-        }
+    @font-face {
+        font-family:roboto;
+        src:url(../fonts/Roboto-Black.ttf)
+    }
 
-        .main-container h1 {
-            margin-left:1em;
-            color:#A69B7B;
-            font-family:roboto;
-            font-size: 4.3em;
-        }
+    .main-container h1 {
+        margin-left:1em;
+        color:#A69B7B;
+        font-family:roboto;
+        font-size: 4.3em;
+    }
 
 		 /* navbar styling */
 

@@ -34,19 +34,39 @@
     //   document.body.style.fontSize = larger;
     // }
     function bigger() {
-      
-      if (document.body.style.fontSize == "") {
-
-        document.body.style.fontSize = "1.8em";
+      //alert(document.querySelector("#changeFont1").style.fontSize);
+      if (document.querySelector("#changeFont1").style.fontSize  == "") {
+        document.querySelector("#changeFont1").style.fontSize = "1em";
+        document.querySelector("#changeFont2").style.fontSize = "1em";
+        document.querySelector("#changeFont3").style.fontSize = "1em";
+        document.querySelector("#changeFont4").style.fontSize = "1em";
+        document.querySelector("#changeFont5").style.fontSize = "1em";
+        document.querySelector("#changeFont6").style.fontSize = "1em";     
       }
-      document.body.style.fontSize = parseFloat(document.body.style.fontSize) +  0.2 + "em";
+      document.querySelector("#changeFont1").style.fontSize = parseFloat(document.querySelector("#changeFont1").style.fontSize) +  0.2 + "em";
+      document.querySelector("#changeFont2").style.fontSize = parseFloat(document.querySelector("#changeFont2").style.fontSize) +  0.2 + "em";
+      document.querySelector("#changeFont3").style.fontSize = parseFloat(document.querySelector("#changeFont3").style.fontSize) +  0.2 + "em";
+      document.querySelector("#changeFont4").style.fontSize = parseFloat(document.querySelector("#changeFont4").style.fontSize) +  0.2 + "em";
+      document.querySelector("#changeFont5").style.fontSize = parseFloat(document.querySelector("#changeFont5").style.fontSize) +  0.2 + "em";
+      document.querySelector("#changeFont6").style.fontSize = parseFloat(document.querySelector("#changeFont6").style.fontSize) +  0.2 + "em";  
     }
 
     function smaller() {
-      if (document.body.style.fontSize == "") {
-        document.body.style.fontSize = "1.8em";
+      if (document.querySelector("#changeFont1").style.fontSize == "") {
+        document.querySelector("#changeFont1").style.fontSize = "1em";
+        document.querySelector("#changeFont2").style.fontSize = "1em";
+        document.querySelector("#changeFont3").style.fontSize = "1em";
+        document.querySelector("#changeFont4").style.fontSize = "1em";
+        document.querySelector("#changeFont5").style.fontSize = "1em";
+        document.querySelector("#changeFont6").style.fontSize = "1em"; 
       }
-      document.body.style.fontSize = parseFloat(document.body.style.fontSize) -  0.2 + "em";
+      document.querySelector("#changeFont1").style.fontSize = parseFloat(document.querySelector("#changeFont1").style.fontSize) -  0.2 + "em";
+      document.querySelector("#changeFont2").style.fontSize = parseFloat(document.querySelector("#changeFont2").style.fontSize) -  0.2 + "em";
+      document.querySelector("#changeFont3").style.fontSize = parseFloat(document.querySelector("#changeFont3").style.fontSize) -  0.2 + "em";
+      document.querySelector("#changeFont4").style.fontSize = parseFloat(document.querySelector("#changeFont4").style.fontSize) -  0.2 + "em";
+      document.querySelector("#changeFont5").style.fontSize = parseFloat(document.querySelector("#changeFont5").style.fontSize) -  0.2 + "em";
+      document.querySelector("#changeFont6").style.fontSize = parseFloat(document.querySelector("#changeFont6").style.fontSize) -  0.2 + "em";  
+      
     }
 
 
@@ -96,16 +116,16 @@
     
     
     <div class="row">
-        <p>Vintage Cooperatives of Prairie Trail offers a secure alternative to home ownership that is uniquely different
+        <p id="changeFont1">Vintage Cooperatives of Prairie Trail offers a secure alternative to home ownership that is uniquely different
           from other housing options. You will find that Vintage Hills Cooperative is "More than just
           a building." Cooperatives create a supportive, interdependent living environment that cultivates
           an active, participatory lifestyle enhancing daily life and promoting health and well-being.
         </p>
 
-        <p>Featuring the finest in quality construction, Vintage Hills will offer one-level floor
+        <p id="changeFont2">Featuring the finest in quality construction, Vintage Hills will offer one-level floor
           plans that are thoughtfully designed keeping the needs of seniors in mind.
         </p>
-        <p>Visit the Vintage Cooperative Housing Office to find out more about the Cooperative
+        <p id="changeFont3">Visit the Vintage Cooperative Housing Office to find out more about the Cooperative
           lifestyle and complete a cost comparison worksheet to find out how affordable Cooperative
           housing can be compared to your living in your current home.
         </p>
@@ -115,10 +135,10 @@
       
       <div class="col">
         <div class="polaroid rotate_left text-center">
-          <img src="img/district.png"  class="homePage" alt="Facility Picture">
+          <img src="img/district.png" alt="Facility Picture">
           <h2>Why Us?</h2>
         </div>
-        <p  class="moreSpace">By living a maintenance free life at Vintage Cooperative of Prairie Trail, you will have the freedome
+        <p  class="moreSpace" id="changeFont4">By living a maintenance free life at Vintage Cooperative of Prairie Trail, you will have the freedome
           to enjoy this amazing neighborhood. Located in the heart of the Prairie Trail District, our 55+ residential 
           community is just walking distance to all the amenities that Prairie Trail has to offer.
         </p>
@@ -126,7 +146,7 @@
       </div>
 
       <div class="col">
-        <p>Vintage Cooperatives of Prairie Trail offers a secure alternative to home ownership that is uniquely different
+        <p id="changeFont5">Vintage Cooperatives of Prairie Trail offers a secure alternative to home ownership that is uniquely different
           from other housing options. You will find that Vintage Cooperative of Praire Trail is "More than jus a building."
           Cooperatives create a supportive, interdependent living environment that cultivates an active participatory lifestyle
           enhancing daily life and promoting health and well-being.
@@ -154,7 +174,7 @@
       </div>
 
       <div class="col ">
-        <p class="moreSpace2">Vintage Cooperative of Prairie Trail offers a maintenance-free alternative to home ownership that is uniquely
+        <p class="moreSpace" id="changeFont6">Vintage Cooperative of Prairie Trail offers a maintenance-free alternative to home ownership that is uniquely
           different from other housing options. Featuring the finest in quality construction, our floor plans and common 
           areas are thoughtfully designed keeping the needs of those on the plus side of 55 in mine. Read on and discover
           why Vintage Cooperative of Prairie Trail is more than just a building...it's a lifestyle!
@@ -199,7 +219,6 @@
           <div class="contact-icons">
               <a href="tel:+1-515-289-2530"><i class="fas fa-phone-alt"></i></a>
               <a href="mailto: abc@example.com"><i class="fas fa-envelope"></i></a>
-              <a href="https://www.facebook.com/vintage.cooperative/" target="_blank"><i class="fab fa-facebook"></i></a>
           </div>
 
           <div class="rights-reserved">
