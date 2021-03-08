@@ -3,6 +3,11 @@ body {
   background-image: url("../img/texture.png");
 }
 
+.vcpt {
+  color: #8C8368;
+  font-weight: bolder;
+}
+
 h2 {
   text-align: center;
 }
@@ -62,6 +67,13 @@ div.rotate_right {
   font-size: 1.4em;
 }
 
+.main-container h1 {
+  margin-left: 1em;
+  color: #A69B7B;
+  font-family: roboto;
+  font-size: 4.0em;
+}
+
 .main-container .center {
   width: 100%;
   display: block;
@@ -76,13 +88,6 @@ div.rotate_right {
 @font-face {
   font-family: roboto;
   src: url(../fonts/Roboto-Black.ttf);
-}
-
-.main-container h1 {
-  margin-left: 1em;
-  color: #A69B7B;
-  font-family: roboto;
-  font-size: 4.3em;
 }
 
 /* navbar styling */
