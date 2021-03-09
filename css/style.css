@@ -1,0 +1,315 @@
+/* Styling for Final project */
+/*	Adventure Travel
+	Author: David Kopf 
+	Date: December 3, 2019 */
+[id*="ta"] > h3 {
+  color: purple;
+}
+
+[id*="ta"] .container1 {
+  color: purple;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px;
+}
+
+.pagination a {
+  color: blue;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 3px solid blue;
+  margin: 3px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  -webkit-box-shadow: 3px 3px black;
+          box-shadow: 3px 3px black;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+body {
+  background-color: lightblue;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ccffff), to(#99ffff));
+  background-image: linear-gradient(to right, #ccffff, #99ffff);
+  font-family: 'Baloo', cursive;
+}
+
+p {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: red;
+}
+
+h3, h4 {
+  border-bottom: 3px solid red;
+  text-align: center;
+}
+
+/* used for destination page hover effect*/
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 0em;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.container1:hover {
+  font-size: 2.5em;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+  .container1 {
+    font-size: 2.0em;
+  }
+}
+
+/* used for destination page */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* button styling*/
+.flex-container-Button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+/* button styling*/
+.button {
+  display: inline-block;
+  background-color: darkgreen;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px black;
+          box-shadow: 3px 3px black;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* page column styling */
+.col > section {
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid red;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+/* used for form styling */
+.flex-container-Form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  label {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  label, input[type=text] {
+    width: 100%;
+    margin-top: 0;
+  }
+  label {
+    font-size: 0.65em;
+  }
+}
+
+/* used for form styling */
+.flex-container-Form label {
+  width: 25%;
+  text-align: right;
+  padding-right: 2%;
+}
+
+/* used for form styling */
+form {
+  background-color: lightsteelblue;
+  width: 80%;
+  margin: auto;
+  border: thin solid black;
+  border-radius: 10px;
+}
+
+/* used for home page styling */
+.destination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 500%;
+  color: yellow;
+}
+
+@media screen and (max-width: 800px) {
+  .destination {
+    font-size: 300%;
+  }
+}
+
+/* used for home page styling description on image*/
+.destdesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 50%;
+  background-color: black;
+  opacity: .6;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 25px;
+}
+
+.flex-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* used to staxk the nav bar for smaller screens */
+@media screen and (max-width: 800px) {
+  .flex-navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+/* nav bar styling */
+nav {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+nav li:hover {
+  border: 2px solid black;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 0px 14px 0px 14px;
+}
+
+nav a {
+  text-decoration: none;
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  nav a {
+    font-size: 0.9em;
+  }
+  nav {
+    font-size: 150%;
+  }
+}
+
+a {
+  color: blue;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+img {
+  border: 2px solid blue;
+  padding: 5px;
+  background-color: black;
+  margin: 20px;
+}
+
+.floatright {
+  float: right;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.floatleft {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.clearfloat {
+  clear: both;
+}
+/*# sourceMappingURL=style.css.map */

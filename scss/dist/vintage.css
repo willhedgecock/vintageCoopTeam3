@@ -1,0 +1,112 @@
+body {
+  margin: 30px;
+  background-image: url("../img/texture.png");
+}
+
+.vcpt {
+  color: #8C8368;
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: center;
+}
+
+.moreSpace {
+  margin-top: 5em;
+}
+
+.moreSpace2 {
+  margin-top: 10em;
+}
+
+.centerList {
+  text-align: center;
+  list-style-type: none;
+}
+
+.main-container {
+  width: 80vw;
+  margin: auto;
+  font-size: 1.4em;
+}
+.main-container h1 {
+  margin-left: 1em;
+  color: #A69B7B;
+  font-family: roboto;
+  font-size: 4em;
+}
+.main-container .center {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: reggae;
+  src: url(../fonts/ReggaeOne-Regular.ttf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Black.ttf);
+}
+/* navbar styling */
+.navbar-brand {
+  margin-left: 10px;
+}
+.navbar-brand img {
+  max-height: 120px;
+  position: relative;
+  top: -10px;
+  left: 20px;
+}
+
+.nav-link {
+  margin-left: 30px;
+  font-size: 1.1em;
+  color: #000000;
+}
+
+.navbar-toggler-icon {
+  background-color: lightgrey;
+  color: black;
+}
+
+.row {
+  margin: 50px 0px;
+}
+
+.col {
+  margin: 10px;
+}
+
+/* end floor plan styling */
+/* navbar hover style */
+.glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px white;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+@media only screen and (min-width: 768px) {
+  .glow:hover, .glow:focus, .glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+  #magnify {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #magnify {
+    display: none;
+  }
+}
