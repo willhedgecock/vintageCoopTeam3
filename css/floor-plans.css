@@ -36,7 +36,7 @@
 }
 
 .floor-plan-display .floor-plan {
-  background-color: #c0b9a5;
+  background-color: #BFBBBA;
   width: 320px;
   min-height: 350px;
   margin: 20px 10px;
@@ -90,8 +90,7 @@ a {
 }
 
 .fp-services-title {
-  text-transform: uppercase;
-  color: #A69B7B;
+  text-transform: uppercase;  
   font-family: roboto;
   letter-spacing: 1px;
 }
