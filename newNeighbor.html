@@ -33,8 +33,10 @@
 
 <body>
   <nav class="navbar border navbar-expand-md bg-light">
+
     <a class="navbar-brand" href="index.html"><img src="img/PrairieTrailResize.png"
         alt="Vintage Cooperative of Prairie Trail logo"></a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavMobile"
       aria-controls="navbarNavMobile" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -53,88 +55,75 @@
   </nav>
 
   <div class="main-container">
-    <h1>Welcome to:</h1>
+    <h1>The Neighborhood:</h1>
     <div id="magnify">
       <h2><button onclick="smaller()">-</button>
       <img src="img/search2.png" alt="magnify glass image">
       <button onclick="bigger()">+</button></h2>    
     </div>
 
-    <img src="img/homePage2.jpg" class="center" alt="Vintage Cooperative Image" />    
-    
-    <div class="row">
-        <p id="changeFont1"><span class="vcpt">Vintage Cooperatives of Prairie Trail</span> offers a secure alternative to home ownership that is uniquely different
-          from other housing options. You will find that <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> is "More than just
-          a building." Cooperatives create a supportive, interdependent living environment that cultivates
-          an active, participatory lifestyle enhancing daily life and promoting health and well-being.
-        </p>
-
-        <p id="changeFont2">Featuring the finest in quality construction, <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> will offer one-level floor
-          plans that are thoughtfully designed keeping the needs of seniors in mind.
-        </p>
-        <p id="changeFont3">Visit the <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> Housing Office to find out more about the Cooperative
-          lifestyle and complete a cost comparison worksheet to find out how affordable Cooperative
-          housing can be compared to your living in your current home.
-        </p>
-    </div><!-- home page text -->
-
-    <div class="row">
-      
-      <div class="col">
-        <div class="polaroid rotate_left text-center">
-          <img src="img/district.png" alt="Facility Picture">
-          <h2>Why Us?</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/buildingPicEdited.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/districtPicEdited.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/facilityCropped.jpg" alt="Third slide">
+          </div>
         </div>
-        <p  class="moreSpace" id="changeFont4">By living a maintenance free life at <span class="vcpt">Vintage Cooperatives of Prairie Trail</span>, you will have the freedome
-          to enjoy this amazing neighborhood. Located in the heart of the Prairie Trail District, our 55+ residential 
-          community is just walking distance to all the amenities that Prairie Trail has to offer.
-        </p>
-        <a href="aboutUs.html"><button>Learn More</button></a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
 
-      <div class="col">
-        <p id="changeFont5">
-          <ul>
-            <li>Security: No concerns about safety and security.</li>
-            <li>Adult Community: A caring neighborly environment.</li>
-            <li>Lifestyle: Socialization and leisure activities with others in the community.</li>
-            <li>Health: The participatory nature of a cooperative enhances all aspects of an individual.</li>
-            <li>Planning: Community support, a safe environment and freedom from worry.</li>
-          </ul>
-        </p>
-       <a href="contactUs.html"><button>Learn More</button></a>
+      <h2>Our Neighborhood</h2>
+      <p id="changeFont1">Our members can truly embrace the lifestyle here! Take a walk or bike ride on the paths connecting to 
+          the various shops and restaurants! Enjoy a move at the new theater just across the street or check out a book at the 
+          new Ankeny Public Library just a short walk away.
+      </p>
+      <p id = "changeFont2">You won't need to travel far to find all of your daily conveniences! Grocery stores, medical facilities,
+          banking and pharmacies are just around the corner! Come and see how easy and convenient life can be by becoming a member
+          of <span class="vcpt">Vintage Cooperatives of Prairie Trail</span>!
+      </p>
 
-        <div class="polaroid rotate_right text-center moreSpace2">
-          <img src="img/gardening.png"  alt="Facility Picture">
-          <h2>Join our community</h2>
-          
-        </div>    
+      <div class="row">
+        <div class="col"><img src="img/district.png" alt=""></div>
+        <div class="col"><img src="img/shop.png" alt=""></div>
+        <div class="col"><img src="img/shop2.png" alt=""></div>
       </div>
-     
-    </div> <!-- end row -->
-
-    <h1>Select your home!</h1>
-
-    <div class="row">
-      <div class="col">
-        <div class="polaroid rotate_right text-center">
-          <p><img src="img/birch.png"  alt="Facility Picture">
-          <img src="img/districtPic.jpg"  alt="Facility Picture"></p>
-          <h2>Check out our floor plans!</h2>
-        </div>   
-      </div>
-
-      <div class="col ">
-        <p class="moreSpace" id="changeFont6"><span class="vcpt">Vintage Cooperatives of Prairie Trail</span> offers a maintenance-free alternative to home ownership that is uniquely
-          different from other housing options. Featuring the finest in quality construction, our floor plans and common 
-          areas are thoughtfully designed keeping the needs of those on the plus side of 55 in mine. Read on and discover
-          why <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> is more than just a building...it's a lifestyle!
-        </p>
-        <a href="contactUs.html"><button>Learn More</button></a>
-      </div>      
-    </div>
-
-
+      
+      <h2>The District</h2>
+      <p id="changeFont3">Located in the heart of the Prairie Trail District, our 55+ residential 
+        community is just walking distance to all the amenities that Prairie Trail has to offer.</p>
+      <ul id="changeFont4" class="centerList">
+        <li>Cultural opportunities</li>
+        <li>Banks</li>
+        <li>Grocery stores</li>
+        <li>Shopping centers</li>
+        <li>Casual dining</li>
+        <li>Theaters</li>
+        <li>Medical clinics</li>
+        <li>Golf courses</li>
+        <li>Academic activities</li>
+        <li>New public library</li>
+        <li>Walking trails and parks</li>
+        <li>And many more...!</li>
+      </ul>
+    
+    
   </div>
   <!--END MAIN CONTAINER-->
   <div>
