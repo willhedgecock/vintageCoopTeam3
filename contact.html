@@ -1,5 +1,6 @@
 <!--
 <?php
+
 ?>
 -->
 
@@ -97,6 +98,11 @@
                 <ul class="flex-inner">
 
                     <li>
+                        <input type="radio" id="less-than-3-months" name="moveTimeFrame" value="less-than-3-months">
+                        <label for="less-than-3-months">Less than 3 Months</label>
+                    </li>
+
+                    <li>
                         <input type="radio" id="3to6" name="moveTimeFrame" value="3to6">
                         <label for="3to6">3-6 Months</label>
                     </li>
@@ -132,8 +138,9 @@
                     </li>
 
                     <li>
-                        <input type="checkbox" id="newspaper" name="newspaper" value="Newspaper">
-                        <label for="newspaper">Newspaper</label>
+                        <input type="checkbox" id="drive-by" name="drive-by" value="DriveBy">
+
+                        <label for="drive-by">Drive By</label>
                     </li>
 
                     <li>
@@ -150,6 +157,22 @@
         <div class="schedule-tour">
 
             <h2 class="contact-head">If you would like to schedule a tour, select a date & time</h2>
+
+                <ul class="flex-inner">
+
+                    <p class="label-p">Would you prefer an in-person or virtual tour?</p>
+
+                    <li>
+                        <input type="radio" name="tour-style" value="in-person" id="in-person">
+                        <label for="in-person">In-Person</label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="tour-style" value="virtual" id="virtual">
+                        <label for="virtual">Virtual</label>
+                    </li>
+
+                </ul>
                 
                 <ul class="flex-inner">
 
