@@ -1,20 +1,10 @@
 body {
   margin: 30px;
   background-image: url("../img/texture.png");
-  font-size: 1.8em;
+  font-size: 1.4em;
 }
 
-.ohnohoney {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 0;
-  z-index: -1;
-}
-
-h2 {
+.main-container h2 {
   text-align: center;
   color: green;
   font-weight: bolder;
@@ -89,38 +79,11 @@ h2 {
   color: black;
 }
 
-/* styling for floor plan links */
-.floorPlan {
-  width: 300px;
-  height: 75px;
-  padding: 10px 10px 20px 10px;
-  margin: 10px;
-  border: 1px solid #8C8368;
-  background-color: #BFBBBA;
-  color: #8C8481;
+.vcpt {
+  color:#8C8368;
+  font-weight: bolder;
 }
 
-.space {
-  margin: 50px 0px;
-}
-
-p span {
-  background-color: #A69B7B;
-  width: 130px;
-  height: 60px;
-  padding: 4px 40px 12px 40px;
-  margin: 5px;
-}
-
-.row {
-  margin: 50px 0px;
-}
-
-.col {
-  margin: 10px;
-}
-
-/* end floor plan styling */
 /* navbar hover style */
 .glow {
   display: inline-block;
@@ -136,6 +99,12 @@ p span {
   transition-property: -webkit-box-shadow;
   transition-property: box-shadow;
   transition-property: box-shadow, -webkit-box-shadow;
+}
+
+#magnify {
+  position:fixed;
+  right:30px;
+  top:30px;
 }
 
 @media only screen and (min-width: 768px) {

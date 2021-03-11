@@ -5,22 +5,6 @@
         font-size: 1.8em;
     }
 
-    .ohnohoney{ // contact form honey pot class
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 0;
-        width: 0;
-        z-index: -1;
-    }
-
-    h2 {
-        text-align: center;
-        color: green;
-        font-weight: bolder;
-    }
-
       .centerList {
           text-align:center;
           list-style-type:none;
@@ -44,6 +28,12 @@
             padding:1em 2em;
             margin:1em;
             border-radius: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: green;
+            font-weight: bolder;
         }
 
         h1 {
@@ -88,38 +78,6 @@
         background-color: lightgrey;
         color: black;
     }
-
- /* styling for floor plan links */
-    .floorPlan {
-        width:300px;
-        height: 75px;
-        padding: 10px 10px 20px 10px;
-        margin:10px;
-        border: 1px solid #8C8368;
-        background-color:#BFBBBA;
-        color:#8C8481;
-    }
-
-    .space{
-        margin:50px 0px;
-    }
-
-    p span {
-        background-color: #A69B7B;
-        width:130px;
-        height:60px;
-        padding:4px 40px 12px 40px;
-        margin:5px;
-    }
-
-    .row {
-        margin: 50px 0px;
-    }
-
-    .col {
-        margin:10px;
-    }
-        /* end floor plan styling */
 
 
  /* navbar hover style */
