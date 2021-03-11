@@ -10,7 +10,8 @@ body {
 
 h2 {
   text-align: center;
-  color: red;
+  color: green;
+  font-weight: bolder;
 }
 
 .centerList {
