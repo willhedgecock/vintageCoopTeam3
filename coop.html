@@ -17,102 +17,50 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<link type="text/css" rel="stylesheet" href="vintage.css">
+<link type="text/css" rel="stylesheet" href="css/vintage.css">
+<link type="text/css" rel="stylesheet" href="css/footer.css">
 <link type="text/css" rel="stylesheet" href="vintage.scss">
 <link type="text/css" rel="stylesheet" href="Roboto-Black.ttf">
 <link type="text/css" rel="stylesheet" href="img/texture.png">
 <link type="text/css" rel="stylesheet" href="ReggaeOne-Regular.ttf">
 
-    <style>
-        body {
-            margin: 30px;
-            background-image: url("img/texture.png");
-            font-size: 1.8em;
-        }
-
-        h2 {
-            font-size: 30px;
-            padding-top: 30px;
-            font-weight: b;
-            color: #240F01;
-            text-align:center;
-            text-shadow: 2px 2px;
-            line-height: 1.6em;
-        }
-
-        .container {
-          background-image: url("img/buildingPic.jpg");
-          line-height: 30px;
-        }
-
-        .col-lg-12 {
-          padding-top: 45px;
-        }
-
-        .col-sm-12 {
-          padding-top: 45px;
-        }
-
-        .pix img{
-          border-radius: 30px;
-          margin-top: 35px;
-          padding:10px;
-          padding-left: 45px;
-          box-shadow: 15px 15px 10px #aaaaaa;
-        }
-
-        .row {
-          background-color: #f7f7f7;
-        }
-
-        .footer {
-            color: #240F01;
-            font-weight: bold;
-            margin-top: 85px;
-        }
-    </style>
-
-
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-sm bg-light">
-  <ul class="navbar-nav">
-	
-	<div class="img">
-	<li class="nav-item">
-      <a class="nav-link" href="index.html"><img src="img/PrairieTrail.png" alt="logo" class="float left"  style="width:100px;"></a>
-    </li>
-	</div>
-  
-    <li class="nav-item">
-      <a class="nav-link glow" href="index.html">HOME</a>
-    </li>
-	
-    <li class="nav-item">
-      <a class="nav-link glow" href="coop.html">WHAT IS A CO-OP?</a>
-    </li>
-	
-	 <li class="nav-item">
-      <a class="nav-link glow" href="about.html">ABOUT US</a>
-    </li>
-	
-	 <li class="nav-item">
-      <a class="nav-link glow" href="plans.html">FLOOR PLANS</a>
-    </li>
-	
-	<li class="nav-item">
-      <a class="nav-link glow" href="contact.html">CONTACT US</a>
-    </li>
-	
-  </ul>
-</nav>
+  <nav class="navbar border navbar-expand-md bg-light">
 
-<img src="img/homePage2.jpg" class = "center" alt = "Vintage Cooperative Image">
+    <a class="navbar-brand" href="index.html"><img src="img/PrairieTrailResize.png"
+        alt="Vintage Cooperative of Prairie Trail logo"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavMobile"
+      aria-controls="navbarNavMobile" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavMobile">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link glow" href="index.html">HOME</a>
+        <a class="nav-item nav-link glow" href="coop.html">WHY CO-OPS?</a>
+        <a class="nav-item nav-link glow" href="newNeighbor.html">THE NEIGHBORHOOD</a>
+        <a class="nav-item nav-link glow" href="about.html">ABOUT US</a>
+        <a class="nav-item nav-link glow" href="floor-plans.html">FLOOR PLANS</a>
+        <a class="nav-item nav-link glow" href="contact.html">CONTACT US</a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="magnify">
+    <h2><button onclick="smaller()">-</button>
+    <img src="img/search2.png" alt="magnify glass image">
+    <button onclick="bigger()">+</button></h2>    
+  </div>
+
+
   
-<div class="container">
-    
+<div class="main-container">
+  <h1>Our Coop:</h1>
+  <img src="img/homePage2.jpg" class="center" alt="Vintage Cooperative Image" />
   <div class="row">
     <div class="col-lg-12">
 
@@ -157,13 +105,71 @@
 
 </div>
 
-    <div class="footer">
-      <p>Vintage Cooperative Housing Office is located at:<br>
-        1370 SW Magazine Rd <br> Ankeny - IA 50023 <br>
-        Phone: (515) 729-2040 <br>
-        Office hours: 8:30am - 4pm but we would be happy to arrange an appointment at your convenience .
+<footer class="flex-footer">
+
+  <div class="footer-nav">
+
+      <h1>Navigation</h1>
+
+      <div class="footer-nav-flex">
+
+          <div class="footer-nav-links">
+              <a class="nav-item nav-link glow" href="#">HOME</a>
+              <a class="nav-item nav-link glow" href="#">WHY CO-OPS?</a>
+              <a class="nav-item nav-link glow" href="#">THE NEIGHBORHOOD</a>
+             
+          </div>
+
+
+          <div class="footer-nav-links">
+            <a class="nav-item nav-link glow" href="#">ABOUT US</a>
+              <a class="nav-item nav-link glow" href="#">FLOOR PLANS</a>
+              <a class="nav-item nav-link glow" href="#">CONTACT US</a>
+          </div>
+
+      </div>
+  </div>
+
+  <div class="footer-contact">
+      <img src="img/PrairieTrail.png">
+
+      <div class="contact-icons">
+          <a href="tel:+1-515-289-2530"><i class="fas fa-phone-alt"></i></a>
+          <a href="mailto: abc@example.com"><i class="fas fa-envelope"></i></a>
+      </div>
+
+      <div class="rights-reserved">
+          <p>Copyright &#169;</i>
+              <script>
+                  let date = new Date(); 
+                  document.write(date.getFullYear());
+             </script>   
+             Vintage Cooperative of Prairie Trail - All Rights Reserved
+          </p>
+      </div>
+  </div>
+
+  <div class="footer-information">
+      <h1>General Information</h1>
+
+      <h2>Hours</h2>
+
+      <p>Monday - Thurday: 8:30AM - 4PM</p>
+      <p>Friday - Sunday: Closed</p>
+
+      <h2>Contact Information</h2>
+      <p>Email: vintagecoop@hello.com</p>
+      <p>Phone: (515)289-2350</p>
+      <p>Address: 1370 SW Magazine Rd
+          Ankeny, IA 50023
       </p>
-    </div>
+  </div>
+
+<footer>
+<p>Vintage hills Cooperative Housing Office is locate at 1370 SW Magazine Rd Office hours are
+  8:30am - 4pm but we would be happy to arrange an appointment at your convenience (515) 729-2040.
+</p>
+</footer>
 
 
 </body>
