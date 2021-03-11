@@ -2,11 +2,17 @@
     body {
         margin:30px;
         background-image:url("../img/texture.png");// texture
+        font-size: 1.8em;
     }
 
-    .vcpt {
-        color:#8C8368;
-        font-weight: bolder;
+    .ohnohoney{ // contact form honey pot class
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        z-index: -1;
     }
 
     h2 {
@@ -52,11 +58,6 @@
             display: block;
             margin: auto;
         }
-    } 
-
-    @font-face {
-        font-family:reggae;
-        src:url(../fonts/ReggaeOne-Regular.ttf)
     }
 
     @font-face {
@@ -67,14 +68,14 @@
 		 /* navbar styling */
 
     .navbar-brand {
-        margin-left: 10px;
+    margin-left: 10px;
 
-        img {
-            max-height: 120px;
-            position: relative;
-            top: -10px;
-            left: 20px;
-            }
+    img {
+        max-height: 120px;
+        position: relative;
+        top: -10px;
+        left: 20px;
+        }
     }
 
     .nav-link {
@@ -88,6 +89,28 @@
         color: black;
     }
 
+ /* styling for floor plan links */
+    .floorPlan {
+        width:300px;
+        height: 75px;
+        padding: 10px 10px 20px 10px;
+        margin:10px;
+        border: 1px solid #8C8368;
+        background-color:#BFBBBA;
+        color:#8C8481;
+    }
+
+    .space{
+        margin:50px 0px;
+    }
+
+    p span {
+        background-color: #A69B7B;
+        width:130px;
+        height:60px;
+        padding:4px 40px 12px 40px;
+        margin:5px;
+    }
 
     .row {
         margin: 50px 0px;
@@ -114,16 +137,4 @@
   @media only screen and (min-width: 768px) {
     .glow:hover, .glow:focus, .glow:active {
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    }
-    #magnify {
-        position:fixed;
-        right:30px;
-        top:30px;
-    }
-    }
-
-    @media only screen and (max-width: 767px) { // for mobile devices
-        #magnify {
-            display:none;
-        }
-    }
+  }}
