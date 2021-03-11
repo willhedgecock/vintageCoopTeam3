@@ -18,8 +18,9 @@ $main-green: #A69B7B;
 
 .floor-plan-content {
     width: 80vw;
-    margin: auto;
+    margin: 10px auto;
     background-color: #f7f7f7;
+    padding: 20px;
 }
 
 .fp-description {
@@ -38,7 +39,7 @@ $main-green: #A69B7B;
     
 
     .floor-plan {
-        background-color: #c0b9a5;
+        background-color: #bfbbba;
         width: 320px;
         min-height: 350px;
         margin: 20px 10px;
@@ -94,7 +95,7 @@ $main-green: #A69B7B;
 
 .fp-services-title {
     text-transform: uppercase;
-    color: $main-green;
+    color: black;
     font-family: roboto;
     letter-spacing: 1px;
 }

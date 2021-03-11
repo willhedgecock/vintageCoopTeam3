@@ -16,8 +16,9 @@
 
 .floor-plan-content {
   width: 80vw;
-  margin: auto;
+  margin: 10px auto;
   background-color: #f7f7f7;
+  padding: 20px;
 }
 
 .fp-description {
@@ -36,7 +37,7 @@
 }
 
 .floor-plan-display .floor-plan {
-  background-color: #BFBBBA;
+  background-color: #bfbbba;
   width: 320px;
   min-height: 350px;
   margin: 20px 10px;
@@ -90,7 +91,8 @@ a {
 }
 
 .fp-services-title {
-  text-transform: uppercase;  
+  text-transform: uppercase;
+  color: black;
   font-family: roboto;
   letter-spacing: 1px;
 }
