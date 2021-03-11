@@ -29,8 +29,7 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-md bg-light">
+  <nav class="navbar border navbar-expand-md bg-light">
 
     <a class="navbar-brand" href="index.html"><img src="img/PrairieTrailResize.png"
         alt="Vintage Cooperative of Prairie Trail logo"></a>
@@ -54,8 +53,14 @@
       </div>
     </div>
   </nav>
-
+  <div id="magnify">
+    <h2><button onclick="smaller()">-</button>
+    <img src="img/search2.png" alt="magnify glass image">
+    <button onclick="bigger()">+</button></h2>    
+  </div>
   <div class="main-container">
+    <h1>Welcome to:</h1>
+    
 
     <img src="img/homePage2.jpg" class="center" alt="Vintage Cooperative Image" />
 
@@ -82,63 +87,116 @@
 
       </div>
     </div><!-- home page text -->
-
-    <div class="row">
-      <!-- floor plans -->
-      <div class="col">
-        <h3>Check out our floor plans!</h3>
-        <p class="space"><a href="floorPlan.pdf" class="floorPlan"><span>Wait List</span>2bd,1ba 874 sf</a></p>
-        <p class="space"><a href="floorPlan.pdf" class="floorPlan"><span>Wait List</span>2bd,1ba 874 sf</a></p>
-        <p class="space"><a href="floorPlan.pdf" class="floorPlan"><span>Wait List</span>2bd,1ba 874 sf</a></p>
-        <p class="space"><a href="floorPlan.pdf" class="floorPlan"><span>Wait List</span>2bd,1ba 874 sf</a></p>
-        <p class="space"><a href="floorPlan.pdf" class="floorPlan"><span>Wait List</span>2bd,1ba 874 sf</a></p>
-      </div>
-
-      <!-- contact form -->
-      <div class="col">
-        
-        <form id="form1" name="form1" method="post" action="WHAT GOES HERE??">
-          <h2>Contact Us!</h2>
-          <p class="formStyle">
-            <label for ="clientFirstName">First Name:</label>
-            <input type="text" name="clientFirstName" id="clientFirstName" />
-          </p>
-          
-          <p class="formStyle">
-            <label for ="clientLastName">Last Name:</label>
-            <input type="text" name="clientLastName" id="clientLastName" />
-          </p>
-
-          <p class="formStyle">
-            <label for ="clientEmail">Email:</label>
-            <input type="text" name="clientEmail" id="clientEmail" />
-          </p>
-
-          <p class="formStyle">
-            <label for ="clientPhone">Phone:</label>
-            <input type="text" name="clientPhone" id="clientPhone" />
-          </p>
-
-          <p class="formStyle">
-            <label for="clientMessage">Message:</label>
-            <textarea name="clientMessage" id="clientMessage"></textarea>
-          </p>
-          
-          <label for ="name" class="ohnohoney"></label>
-          <input class="ohnohoney" autocomplete="off" type="text" id="name" name="name" placeholder="Your Name here">
-          <label for ="email" class="ohnohoney"></label>
-          <input class="ohnohoney" autocomplete="off" type="text" id="email" name="email" placeholder="Your email here">
-          
-          <div>
-            <input type="submit" name="button" id="button" value="Submit" />
-            <input type="reset" name="button2" id="button2" value="Reset" />
-          </div>
-        </form>
-      </div>
+    <p class="text-center"><a href="contact.html"><button>Schedule a visit!</button></a></p>
+   
+    <div class="text-center pix">
+      <img src="img/active.png" alt="Facility Picture">
+      <img src="img/active.png" alt="Facility Picture">
+      <img src="img/active.png" alt="Facility Picture">
+      <h2>Why Us?</h2>
     </div>
-
+    <p id="changeFont4">By living a maintenance free life at <span class="vcpt">Vintage Cooperatives of Prairie Trail</span>, you will have the freedome
+      to enjoy this amazing neighborhood. Located in the heart of the Prairie Trail District, our 55+ residential 
+      community is just walking distance to all the amenities that Prairie Trail has to offer.
+    </p>
+    
+    <h2>Enjoy these benefits of cooperative living:</h2>
+    <p>
+      <ul  id="changeFont5" class="centerList">
+        <li>Security: No concerns about safety and security.</li>
+        <li>Adult Community: A caring neighborly environment.</li>
+        <li>Lifestyle: Socialization and leisure activities with others in the community.</li>
+        <li>Health: The participatory nature of a cooperative enhances all aspects of an individual.</li>
+        <li>Planning: Community support, a safe environment and freedom from worry.</li>
+      </ul>
+    </p>
+    <h2>Find out more and schedule a visit or a virtual tour!</h2>
+    <p class="text-center"><a href="contact.html"><button>Ask us about a virtual tour!</button></a></p>
+    
+    <div class="text-center pix">
+      <img src="img/gardening.png"  alt="Facility Picture">
+      <img src="img/gardening.png"  alt="Facility Picture">
+      <img src="img/gardening.png"  alt="Facility Picture"> 
+    </div>
+     
+    <h1>Select your home!</h1>    
+      <div class="text-center pix">
+        <img src="img/birch.png"  alt="Facility Picture">
+        <img src="img/chestnut.png"  alt="Facility Picture">
+        <img src="img/butternut.png"  alt="Facility Picture">
+        <p class="text-center"><a href="floor-plans.html"><button>Check out all our floor plans!</button></a></p>
+        
+      </div>
+     
+        <p id="changeFont6"><span class="vcpt">Vintage Cooperatives of Prairie Trail</span> offers a maintenance-free alternative to home ownership that is uniquely
+          different from other housing options. Featuring the finest in quality construction, our floor plans and common 
+          areas are thoughtfully designed keeping the needs of those on the plus side of 55 in mine. Read on and discover
+          why <span class="vcpt">Vintage Cooperatives of Prairie Trail</span> is more than just a building...it's a lifestyle!
+        </p>
   </div>
   <!--END MAIN CONTAINER-->
+
+
+  <div>
+    <footer class="flex-footer">
+
+      <div class="footer-nav">
+
+          <h1>Navigation</h1>
+
+          <div class="footer-nav-flex">
+
+              <div class="footer-nav-links">
+                  <a class="nav-item nav-link glow" href="#">HOME</a>
+                  <a class="nav-item nav-link glow" href="#">WHY CO-OPS?</a>
+                  <a class="nav-item nav-link glow" href="#">THE NEIGHBORHOOD</a>
+                 
+              </div>
+
+
+              <div class="footer-nav-links">
+                <a class="nav-item nav-link glow" href="#">ABOUT US</a>
+                  <a class="nav-item nav-link glow" href="#">FLOOR PLANS</a>
+                  <a class="nav-item nav-link glow" href="#">CONTACT US</a>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="footer-contact">
+          <img src="img/PrairieTrail.png">
+
+          <div class="contact-icons">
+              <a href="tel:+1-515-289-2530"><i class="fas fa-phone-alt"></i></a>
+              <a href="mailto: abc@example.com"><i class="fas fa-envelope"></i></a>
+          </div>
+
+          <div class="rights-reserved">
+              <p>Copyright &#169;</i>
+                  <script>
+                      let date = new Date(); 
+                      document.write(date.getFullYear());
+                 </script>   
+                 Vintage Cooperative of Prairie Trail - All Rights Reserved
+              </p>
+          </div>
+      </div>
+
+      <div class="footer-information">
+          <h1>General Information</h1>
+
+          <h2>Hours</h2>
+
+          <p>Monday - Thurday: 8:30AM - 4PM</p>
+          <p>Friday - Sunday: Closed</p>
+
+          <h2>Contact Information</h2>
+          <p>Email: vintagecoop@hello.com</p>
+          <p>Phone: (515)289-2350</p>
+          <p>Address: 1370 SW Magazine Rd
+              Ankeny, IA 50023
+          </p>
+      </div>
 
   <footer>
     <p>Vintage hills Cooperative Housing Office is locate at 1370 SW Magazine Rd Office hours are

@@ -14,58 +14,56 @@ body {
   z-index: -1;
 }
 
-.formStyle {
-  text-align: right;
-  position: relative;
-  right: 4em;
-}
-
-form {
-  background-color: #8C8368;
-  padding: 3em;
-}
-
-form h2 {
-  position: relative;
-  bottom: 1em;
+h2 {
   text-align: center;
+  color: green;
+  font-weight: bolder;
 }
 
-form div {
+.centerList {
   text-align: center;
+  list-style-type: none;
+}
+
+.pix img {
+  border-radius: 30px;
+  margin: 2em 1em;
+  padding: .5em .5em .5em 2.5em;
+  width: 27%;
+  -webkit-box-shadow: 15px 15px 10px #aaaaaa;
+          box-shadow: 15px 15px 10px #aaaaaa;
+  background-color: white;
 }
 
 .main-container {
   width: 80vw;
   margin: auto;
+  font-size: 1.4em;
+}
+
+.main-container button {
+  background-color: #BFBBBA;
+  padding: 1em 2em;
+  margin: 1em;
+  border-radius: 20px;
+}
+
+.main-container h1 {
+  margin-left: 1em;
+  color: #A69B7B;
+  font-family: roboto;
+  font-size: 4.0em;
 }
 
 .main-container .center {
   width: 100%;
   display: block;
-  margin: 0 auto;
-}
-
-@font-face {
-  font-family: reggae;
-  src: url(ReggaeOne-Regular.ttf);
+  margin: auto;
 }
 
 @font-face {
   font-family: roboto;
-  src: url(Roboto-Black.ttf);
-}
-
-h1 {
-  margin-left: 2em;
-  color: #A69B7B;
-  font-family: roboto;
-  font-size: 4.3em;
-}
-
-h1 + h2 {
-  color: #8C8368;
-  font-family: reggae;
+  src: url(../fonts/Roboto-Black.ttf);
 }
 
 /* navbar styling */
